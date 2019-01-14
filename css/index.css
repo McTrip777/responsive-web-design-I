@@ -264,12 +264,13 @@ footer {
         flex-direction: column-reverse; 
     }
     header nav {
-        width: 100%;
-        justify-content: space-around;
-        margin-top:5.5%
+        width: 53%;
+        margin-top:5.3%;
+        margin-left:1.5%;
     }
     header nav a {
-        font-size:90%;
+        font-size:100%;
+        margin:0 20% 0 0;
     }
     header .logo {
         width:24%;
@@ -315,7 +316,7 @@ footer {
     width:100%;
     margin: 4% auto 4%;
     }
- /*   -------------------    */
+
     .main-content .bottom-content{
         display: flex;
         flex-direction: row;
@@ -326,16 +327,111 @@ footer {
     }
     .main-content .bottom-content p{
         width:99%;
-        font-size:110%;
+        font-size:111%;
         margin:0;
         height:90%;
     }
     
     .main-content .bottom-content .text-content{
-        width:32%;
+        width:31%;
     }
 
+    .contact {
+        width:20%;
+        margin-left:1.2%;
+    }
+}
 
+
+/* -----------Mobile View page--------------- */
+
+
+@media(max-width:500px){
+    .container{
+    width:500px;
+    margin:auto;
+    padding:2.5%;
+    }
+    header{
+        flex-direction: column-reverse; 
+    }
+    header nav {
+        width: 53%;
+        margin-top:5.3%;
+        margin-left:1.5%;
+    }
+    header nav a {
+        font-size:100%;
+        margin:0 20% 0 0;
+    }
+    header .logo {
+        width:38%;
+        justify-self:center;
+        margin:auto;
+    }
+    .cta {
+        display: flex;
+        margin-top: 72px;
+        justify-content: center;
+    }
+    .cta .cta-text {
+        margin:0;
+    }
+    .cta img{
+        height:0%;
+        width:0%;
+    }
+    .main-content {
+        margin: 75px 0 35px 0;
+        padding: 35px 0;
+        font-size: 90%;
+        line-height: 18px;
+    }
+    .main-content .top-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .main-content .top-content .text-content{
+        width: 47%;
+    }
+    .main-content .top-content h4{
+        font-size:110%;
+    }
+    .main-content .top-content p{
+        width:99%;
+        font-size:110%;
+        margin:0;
+        height:90%;
+    }
+    .main-content .middle-img {
+    width:100%;
+    margin: 4% auto 4%;
+    }
+
+    .main-content .bottom-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .main-content .bottom-content h4{
+        font-size:110%;
+    }
+    .main-content .bottom-content p{
+        width:99%;
+        font-size:111%;
+        margin:0;
+        height:90%;
+    }
+    
+    .main-content .bottom-content .text-content{
+        width:31%;
+    }
+
+    .contact {
+        width:20%;
+        margin-left:1.2%;
+    }
 
 
 
